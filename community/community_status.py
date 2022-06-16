@@ -16,8 +16,8 @@ class Status(object):
     def __init__(self):
         self.node2com = dict([])
         self.total_weight = 0
-        self.degrees = dict([])  # degrees: tap degree cua tung community --> indegrees, outdegrees
-        self.gdegrees = dict([])  # gdegrees: tap degree cua tung nodes  --> ingdegrees, outgdegrees
+        self.degrees = dict([])  
+        self.gdegrees = dict([])  
         self.internals = dict([])
         self.loops = dict([])
 
